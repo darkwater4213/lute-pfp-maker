@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pride PFP Maker</title>
+        <title>Lute PFP Maker</title>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=0.5'> <!-- should be good for most phones ? -->
 
@@ -10,20 +10,20 @@
         <link rel='apple-touch-icon' href='src/assets/logo_128.png'>
         <link rel='image_src' href='src/assets/logo_128.png'> 
         <meta property='og:type' content='website'>
-        <meta property='og:title' content='Pride PFP Maker'>
-        <meta property='og:url' content='https://nectarboy.github.io/pride-pfp-maker'>
-        <meta property='og:image' itemprop="image primaryImageOfPage" content='https://github.com/nectarboy/pride-pfp-maker/blob/main/src/assets/logo_128.png?raw=true'>
-        <meta property='og:description' content='customize your PFPs with pride flags !'>
+        <meta property='og:title' content='Lute PFP Maker'>
+        <meta property='og:url' content='https://darkwater4213.github.io/lute-pfp-maker'>
+        <meta property='og:image' itemprop="image primaryImageOfPage" content='https://github.com/darkwater4213/lute-pfp-maker/blob/main/src/assets/logo_128.png?raw=true'>
+        <meta property='og:description' content='Give your PFP some Lute flair!'>
 
 
-        <meta name='description' content='customize your PFPs with pride flags !'>
+        <meta name='description' content='Give your PFP some Lute flair!'>
         <meta name='keywords' content='pride, pride pfp maker, pride icon maker, pride month, pride pfp, pride flag ring icon'>
-        <meta name='author' content='github.com/nectarboy'>
+        <meta name='author' content='github.com/darkwater4213'>
 
-        <!-- PfpPride scripts -->
-        <script src='src/pfppride/pfppride.js'></script>
-        <script src='src/pfppride/presetflags.js'></script>
-        <script src='src/pfppride/editor.js'></script>
+        <!-- PfpLute scripts -->
+        <script src='src/pfplute/pfplute.js'></script>
+        <script src='src/pfplute/presetflags.js'></script>
+        <script src='src/pfplute/editor.js'></script>
     </head>
 
     <body>
@@ -33,22 +33,22 @@
             <div class='topSub'> <!-- stfu -->
                 <span class='topTitle'>
                     <img src='src/assets/favicon_24.png'>
-                    <i class='topTitle'>Pride PFP Maker</i> |
+                    <i class='topTitle'>Lute PFP Maker</i> |
                 </span>
-                <span class='topDesc'>customize your PFPs with pride flags ! v1.2</span>
+                <span class='topDesc'>Give your PFP some Lute flair! v1.3</span>
                 <br>
 
-                <marquee id='prideAlertMuthaFucka'></span></marquee>
+                <marquee id='refDayBitches'></span></marquee>
                 <script>
-                    if ((new Date()).getMonth() === 5) {
+                    if ((new Date()).getMonth() === 11 || ((new Date()).getMonth() === 10 && (new Date()).getDay() === 31 )) {
                         const el = document.createElement('span');
-                        el.className = 'prideText';
-                        el.innerHTML = 'happy pride month | '.repeat(12);
+                        el.className = 'luteText';
+                        el.innerHTML = 'Ecclesia semper reformanda et semper reformanda secundum verbum Dei est | '.repeat(12);
 
-                        document.getElementById('prideAlertMuthaFucka').appendChild(el);
+                        document.getElementById('refDayBitches').appendChild(el);
                     }
 
-                    // if u see this ur gay as balls
+		    // nailed it
                 </script>
             </div>
         </div>
@@ -61,7 +61,7 @@
             <div id='uploadDiv' class='mainBox' style='display: none'>
                 <div class='bigLayer' style='overflow-y: hidden'>
                     <span>
-                        drap and drop an image !<br>
+                        drag and drop an image<br>
                         (or click that icon)
                     </span>
                     <hr class='line'>
@@ -82,7 +82,7 @@
             <div id='exportDiv' class='mainBox' style='display: none'>
                 <div class='bigLayer' style='overflow-y: hidden'>
                     <span>
-                        right click and save the image !<br>
+                        right click and save the image<br>
                         (tap and hold if on mobile)
                     </span>
                     <hr class='line'>
@@ -111,8 +111,8 @@
                             <!-- Preview -->
                             <div class='mediumLayer'>
                                 <span>
-                                    this is your profile pic !<br>
-                                    drag it to move the image position !
+                                    this is your profile pic<br>
+                                    drag it to move the image position
                                 </span>
                                 <hr class='line'>
 
@@ -121,16 +121,16 @@
                             <br>
 
                             <!-- Flag Select -->
-                            <div class='smallLayer'>
-                                <span>change the pride flag !</span>
-                                <hr class='line'>
+			    <div class='smallLayer'>
+			    	<span>change the flag</span>
+			    	<hr class='line'>
 
-                                <!-- fuck tables >:( -->
-                                <div id='flagButtonDiv' class='flagButtonDiv'>
-                                    <!-- Custom flag image input -->
-                                    <input type='file' id='otherFlagInput' style='display: none'>
-                                </div>
-                            </div>
+                                <!-- tables suck >:( -->
+				<div id='flagButtonDiv' class='flagButtonDiv'>
+                                    Custom flag image input
+				    <input type='file' id='otherFlagInput' style='display: none'>
+			    	</div>
+			    </div>
 
                         </div>
                         </td>
@@ -142,7 +142,7 @@
                             <!-- Settings -->
                             <div class='bigLayer'>
                                 <div class='exportDivWrapper'>
-                                    <span>more settings !</span>
+                                    <span>more settings</span>
                                     <hr class='line'>
 
                                     <div>
@@ -219,7 +219,7 @@
         <br>
 
         <div style='text-align: center'>
-            <span class='topDesc'>nectarboy | 2022 | <a class='topDesc' href='https://github.com/nectarboy/pride-pfp-maker/'>source</a></span>
+            <span class='topDesc'>darkwater4213 | 2025 | <a class='topDesc' href='https://github.com/darkwater4213/lute-pfp-maker/'>source</a></span>
         </div>
 
         <!-- Index script ( INDEX.JS !!!??) -->
