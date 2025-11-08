@@ -132,7 +132,7 @@ const presetFlags = [
     },
     {
 	name: 'Episcopal',
-	obj: new FlagObject(['#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#9e1c20', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff']),
+	obj: new FlagObject(['#144b9a', '#ffffff', '#144b9a', '#9e1c20', '#ffffff', '#144b9a', '#ffffff']),
     },
     {
 	name: 'Anglican',
