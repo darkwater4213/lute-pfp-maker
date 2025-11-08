@@ -49,7 +49,7 @@ const presetFlags = [
     },
     {
         name: 'Serbian Orthodox',
-	obj: new FlagObject(['#c73339', '#c73339', '#c73339', '#043e77', '#eeba2a', '#043e77', '#ffffff', '#ffffff', '#fffff']),
+	obj: new FlagObject(['#c73339', '#c73339', '#c73339', '#043e77', '#eeba2a', '#043e77', '#ffffff', '#ffffff', '#ffffff']),
     },
     {
 	name: 'Kreuz Prot',
@@ -59,7 +59,7 @@ const presetFlags = [
 	name: 'Hussite',
 	obj: new FlagObject(['#d43721', '#ae9e7d', '#d43721']),
     },
-    {
+    /* {
         name: 'Georgian Orthodox',
 	obj: new FlagObject([
 		'#ffffff',
@@ -163,9 +163,13 @@ const presetFlags = [
 		'#ffffff',
 		'#ffffff'
 	]),
-    },
+    }, */
     {
 	name: 'Episcopal',
 	obj: new FlagObject(['#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#9e1c20', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff']),
+    },
+    {
+	name: 'Anglican',
+	obj: new FlagObject(['#002e98', '#002e98', '#cda42a', '#002e98', '#cda42a', '#cda42a', '#ffffff', '#ff0000', '#ffffff', '#002e98', '#002e98', '#cda42a', '#cda42a', '#002e98', '#cda42a']),
     },
 ];
