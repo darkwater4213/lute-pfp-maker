@@ -1,7 +1,7 @@
 const presetFlags = [
     {
         name: 'Lute',
-	obj: new FlagObject([ '#415ee1', '#d07e9c', '#ffffff', '#8cc078', '#783da8', '#f6cd4d', '#000000', '#ffffff', '#cc6345', '#8d3d2a' ])
+	obj: new FlagObject([ '#415ee1', '#d07e9c', '#ffffff', '#8cc078', '#783da8', '#f6cd4d', '#000000', '#ffffff', '#cc6345', '#8d3d2a' ]),
     },
     /* {
         name: 'Pride',
@@ -25,7 +25,7 @@ const presetFlags = [
     }, */
     {
         name: 'Asexual',
-        obj: new FlagObject(['#000000', '#929292', '#ffffff', '#870c7b'])
+        obj: new FlagObject(['#000000', '#929292', '#ffffff', '#870c7b']),
     },
     /* {
         name: 'Pansexual',
@@ -39,4 +39,8 @@ const presetFlags = [
         name: 'Non-Binary',
         obj: new FlagObject(['#fafa23', '#ffffff', '#a22ac9', '#000000'])
     }, */
+    {
+        name: 'Mennonite',
+        obj: new FlagObject(['#fe0000', '#ffffff', '#4f81bc', '#ffffff', '#4f81bc', '#fe0000']),
+    },
 ];
