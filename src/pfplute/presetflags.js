@@ -49,7 +49,7 @@ const presetFlags = [
     },
     {
         name: 'Serbian',
-	obj: new FlagObject(['#c73339', '#c73339', '#c73339', '#043e77', '#eeba2a', '#043e77', '#ffffff', '#ffffff', '#ffffff']),
+	obj: new FlagObject(['#c73339', '#c73339', '#043e77', '#eeba2a', '#043e77', '#ffffff', '#ffffff']),
     },
     {
 	name: 'Evang',
