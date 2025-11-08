@@ -44,23 +44,23 @@ const presetFlags = [
         obj: new FlagObject(['#fe0000', '#ffffff', '#4f81bc', '#ffffff', '#4f81bc', '#fe0000']),
     },
     {
-	name: 'Svenska Kyrkan',
-	obj: new FlagObject(['#ffcc01', '#ffcc01', '#ffcc01', '#e2141c', '#ffcc01', '#e2141c', '#ffcc01', '#ffcc01', '#ffcc01']),
+	name: 'Svenska',
+	obj: new FlagObject(['#ffcc01', '#ffcc01', '#e2141c', '#ffcc01', '#e2141c', '#ffcc01', '#ffcc01']),
     },
     {
-        name: 'Serbian Orthodox',
+        name: 'Serbian',
 	obj: new FlagObject(['#c73339', '#c73339', '#c73339', '#043e77', '#eeba2a', '#043e77', '#ffffff', '#ffffff', '#ffffff']),
     },
     {
-	name: 'Kreuz Prot',
+	name: 'Evang',
 	obj: new FlagObject(['#530777', '#530777', '#fefefe', '#530777', '#530777']),
     },
     {
 	name: 'Hussite',
 	obj: new FlagObject(['#d43721', '#ae9e7d', '#d43721']),
     },
-    /* {
-        name: 'Georgian Orthodox',
+    {
+        name: 'Georgian',
 	obj: new FlagObject([
 		'#ffffff',
 		'#ffffff',
@@ -100,8 +100,8 @@ const presetFlags = [
 		'#ffffff',
 		'#ffffff',
 		'#ffffff',
-		'#cd1025',
-		'#cd1025',
+		'#0e2aaf',
+		'#0e2aaf',
 		'#ffffff',
 		'#ffffff',
 		'#ffffff',
@@ -122,8 +122,8 @@ const presetFlags = [
 		'#ffffff',
 		'#ffffff',
 		'#ffffff',
-		'#cd1025',
-		'#cd1025',
+		'#0e2aaf',
+		'#0e2aaf',
 		'#ffffff',
 		'#ffffff',
 		'#ffffff',
@@ -163,13 +163,13 @@ const presetFlags = [
 		'#ffffff',
 		'#ffffff'
 	]),
-    }, */
+    },
     {
 	name: 'Episcopal',
-	obj: new FlagObject(['#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#9e1c20', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff']),
+	obj: new FlagObject(['#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#9e1c20', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff', '#144b9a', '#ffffff']),
     },
     {
 	name: 'Anglican',
-	obj: new FlagObject(['#002e98', '#002e98', '#cda42a', '#002e98', '#cda42a', '#cda42a', '#ffffff', '#ff0000', '#ffffff', '#002e98', '#002e98', '#cda42a', '#cda42a', '#002e98', '#cda42a']),
+	obj: new FlagObject(['#002e98', '#002e98', '#cda42a', '#002e98', '#cda42a', '#002e98', '#ffffff', '#ff0000', '#ffffff', '#002e98', '#002e98', '#cda42a', '#cda42a', '#002e98', '#002e98']),
     },
 ];
